@@ -7,7 +7,8 @@ I executed the install script from the Repository listed above on SQL Server Man
 to my machine. Every SQL file is preceded by a PNG Screenshot of the data resulting from the query.
 
 # Visualizations
-In the Visualizations folder there are 2 visualization projects, one with PowerBI and one with Tableu. 
+In the Visualizations folder there are 2 visualization projects, one with PowerBI and one with Tableu.
+Because I was unable to Make my PowerBI report publicly accessible, I exported the report as a PDF. 
 
 # Python
 
