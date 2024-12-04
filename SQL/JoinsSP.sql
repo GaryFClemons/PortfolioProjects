@@ -5,6 +5,8 @@
 --as well as quantity ordered, line total and the corresponding date
 --I use the CAST function to convert the OrderDate field from a DATETIME to a DATE data type to get rid of the timestamp
 
+USE AdventureWorks
+	
 CREATE PROCEDURE SalesProductOrders AS 
 BEGIN
 	SET NOCOUNT ON
