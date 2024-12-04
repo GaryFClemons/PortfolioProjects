@@ -29,6 +29,11 @@ Here is a PDF version of the resulting report I created:
 PowerBIProject/USGovernmentContractsVisual.pdf
 
 # Python
+The Python folder contains a webscraper that scrapes all past winning numbers from the MegaMillions lottery website:
+https://www.texaslottery.com/export/sites/lottery/Games/Mega_Millions/Winning_Numbers/print.html_2013354932.html
+WinningNumbersScraper.ipynb
+
+
 
 
 
