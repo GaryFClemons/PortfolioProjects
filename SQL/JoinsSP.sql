@@ -22,5 +22,5 @@ BEGIN
 		INNER JOIN Sales.SalesOrderHeader SOH ON SOH.SalesOrderID = SOD.SalesOrderID;
 END	
 
-
+EXEC SalesProductOrders
 
