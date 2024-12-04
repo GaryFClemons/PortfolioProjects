@@ -9,6 +9,8 @@
 --pay rate. The WHERE statement filters results using a subquery that selects results from The 
 --Employee table based on the @HireDate, @JobTitle, @Gender parameters.
 
+USE AdventureWorks
+	
 CREATE PROCEDURE EmployeePayRates 
 	@HireDate DATE = NULL,
 	@JobTitle nvarchar(50) = NULL,
