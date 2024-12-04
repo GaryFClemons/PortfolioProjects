@@ -10,12 +10,15 @@ to my machine. Every SQL file is preceded by a PNG Screenshot of the data result
 The purpose of this project was to show a high level overview of U.S. Government contracts awarded for fiscal year 2025. 
 Because I was unable to make my PowerBI visualization publicly accessible, i exported it here in PDF format.
 
-1. First, I downloaded a csv file containing government contract and award data from https://www.usaspending.gov/download_center/award_data_archive
+1. First, I downloaded a csv file containing government contract and award data from: https://www.usaspending.gov/download_center/award_data_archive
+
 2. Next I wrote PowerBIProject/Create_GovernmentContracts_Table.sql in order to create a table in Microsoft SQL Server.
-3. Then I Wrote a python script PowerBIProject/GovernmentContractstCSVtoSQL.ipynb in order to pull the data from the CSV file
-and insert it into my Microsoft SQL Server table. 
-4. Next i wrote another SQL query in order to pull only the data i needed from the report from the SQL database:
+
+3. Then I Wrote a python script: PowerBIProject/GovernmentContractstCSVtoSQL.ipynb in order to pull the data from the CSV file and insert it into my Microsoft SQL Server database table.
+
+4. Next I wrote another SQL query in order to pull only the data I needed for this report from the SQL database:
 PowerBIProject/GovernmentContractsProjectQuery.sql
+
 5. I then copied those results (with headers) into a new csv file and loaded that into PowerBI.
 Here is a PDF version of the resulting report I created:
 PowerBIProject/USGovernmentContractsVisual.pdf
