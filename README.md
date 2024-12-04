@@ -28,10 +28,6 @@ GovernmentContractsProjectQuery.sql
 Here is a PDF version of the resulting report I created:
 https://github.com/GaryFClemons/PortfolioProjects/blob/923b11ad3621fb0d1d188cf3d13dd58ec7b2ff88/PowerBIProject/USGovernmentContractsVisual.pdf
 
-# Python
-The Python folder contains a webscraper that scrapes all past winning numbers from the MegaMillions lottery website:
-https://www.texaslottery.com/export/sites/lottery/Games/Mega_Millions/Winning_Numbers/print.html_2013354932.html
-WinningNumbersScraper.ipynb
 
 
 
