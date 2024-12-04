@@ -1,4 +1,4 @@
-USE [SMEDataService]
+USE [GovernmentContractsProject]
 GO
 /****** Object:  Table [dbo].[GovernmentContracts]    Script Date: 11/29/2024 7:25:48 AM ******/
 SET ANSI_NULLS ON
