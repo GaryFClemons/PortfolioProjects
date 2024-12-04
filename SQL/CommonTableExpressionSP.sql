@@ -6,6 +6,8 @@
 --the OrderDate field in the SalesOrderHeader table. The SUM function is used to total the sales for each month
 --The AVG function is used to average the total sales for each month
 
+USE AdventureWorks
+
 CREATE PROCEDURE AvgMonthlySales @Month Nvarchar(20) = NULL
 AS
 BEGIN
