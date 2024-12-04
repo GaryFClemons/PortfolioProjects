@@ -8,6 +8,8 @@
 --field is created so it can be used later in the next CTE. CASE statement is used with 
 --the RowNumber field to specify that the first 7 rows should be null.
 
+USE AdventureWorks
+	
 CREATE PROCEDURE RollingAvg7Day 
 AS 
 BEGIN
