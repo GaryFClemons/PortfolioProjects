@@ -7,6 +7,8 @@
 --can see running totals. Because the PARTITION BY clause is the same for both of the window functions, 
 --I used an alias 'w' to save code/time.
 
+USE AdventureWorks
+	
 CREATE PROCEDURE RollingProductSales @ProductName nvarchar(50)
 AS 
 BEGIN
