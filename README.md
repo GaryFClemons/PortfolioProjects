@@ -15,16 +15,16 @@ Because I was unable to make my PowerBI visualization publicly accessible, i exp
 
 1. First, I downloaded a csv file containing government contracts and awards data from: https://www.usaspending.gov/download_center/award_data_archive
 
-2. Next I wrote an SQL query in order to create a table in Microsoft SQL Server:
+2. SQL query that creates a table in Microsoft SQL Server:
 Create_GovernmentContracts_Table.sql 
 
-4. Then I Wrote a python script in order to pull the data from the CSV file and insert it into my Microsoft SQL Server database table:
+3. Python script that pulls data from the CSV file and insert data into Microsoft SQL Server database table:
 GovernmentContractstCSVtoSQL.ipynb
 
-5. Next I wrote another SQL query in order to pull only the data I needed for this report from the SQL database:
+4. SQL query that pulls only the data needed for this report from the SQL database:
 GovernmentContractsProjectQuery.sql
 
-6. I then copied those results (with headers) into a new csv file and loaded that file into PowerBI.
+5. Copy query results (with headers) into a new csv file and loaded that file into PowerBI.
 Here is a PDF version of the resulting report I created:
 https://github.com/GaryFClemons/PortfolioProjects/blob/3d1e579b5f9970cb9d8dd5821ef05599fba5e4b1/PowerBIProject/USGovernmentContractsVisual.pdf
 
