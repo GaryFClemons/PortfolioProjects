@@ -11,7 +11,7 @@ to my machine. Every SQL file is accompanied by a PNG Screenshot of the data res
 
 # PowerBIProject
 The purpose of this project was to show a high level overview of U.S. Government contracts awarded for fiscal year 2025. 
-Because I was unable to make my PowerBI visualization publicly accessible, i exported it here in PDF format.
+PowerBI restricts public accessibilty without a paid license, So I exported it here in PDF format.
 
 1. First, I downloaded a csv file containing government contracts and awards data from: https://www.usaspending.gov/download_center/award_data_archive
 
